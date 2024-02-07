@@ -30,7 +30,7 @@ document.getElementById("botonNoMobile").addEventListener("click", function () {
     if (this.textContent === "NO") {
       this.textContent = "¡No quiero!";
       document.getElementById("botonAceptoMobile").textContent =
-        "¿Segura que no?";
+        "Aceptar aqui";
       document.getElementById("botonAceptoMobile").style.width = "300px";
       document.getElementById("botonAceptoMobile").style.height = "300px";
       document.getElementById("botonAceptoMobile").style.fontSize = "25px";
@@ -60,7 +60,7 @@ document.getElementById("botonNoMobile").addEventListener("click", function () {
     if (this.textContent === "NO") {
       this.textContent = "¡No quiero!";
       document.getElementById("botonAceptoMobile").textContent =
-        "¿Segura que no?";
+        "aceptar aqui";
       document.getElementById("botonAceptoMobile").style.width = "200px";
       document.getElementById("botonAceptoMobile").style.height = "200px";
       document.getElementById("botonAceptoMobile").style.fontSize = "25px";
@@ -86,7 +86,7 @@ document.getElementById("botonNoMobile").addEventListener("click", function () {
       document.querySelector(".botonAceptoMobileDiv").style.height = "400px";
       document.querySelector(".botonAceptoMobileDiv").style.padding = "10px";
 
-      document.querySelector(".botonAceptoMobileDiv").style.transform = "translateY(-230px)";
+      document.querySelector(".botonAceptoMobileDiv").style.transform = "translateY(-200px)";
     }
   }
 });

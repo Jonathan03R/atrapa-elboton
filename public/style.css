@@ -116,7 +116,7 @@ button:active {
 
 .card-succes .card-2 {
     height: 500px;
-    width: 700px;
+    width: 85%;
     background-color: rgb(157, 84, 117);
     border-radius: 15px;
     display: flex;
@@ -165,9 +165,9 @@ button:active {
         /* Agrega transición para un cambio suave */
     }
 
-    .card-succes .card-2{
+    /* .card-succes .card-2{
         width: 550px;
-    }
+    } */
 }
 
 @media screen and (max-width: 500px) {
@@ -175,9 +175,10 @@ button:active {
         font-weight: 800;
         font-size: 25px;
     }
-    .card-succes .card-2 {
-        width:80%;
-    }
+    /* .card-succes .card-2 {
+        width:125px
+        ;
+    } */
 
     .card-succes .card-2 h1{
         font-size: 25px;
