@@ -34,15 +34,23 @@ body {
     padding-top: 70px;
 }
 
+.card span{
+    color: rgb(217, 14, 14)
+}
+
 .card img {
     width: 200px;
     height: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .card .titulo {
-    font-weight: 800;
-    font-size: 55px;
+     font-weight: 800;
+    text-align: center;
 }
+
+
 
 .botones {
     display: flex;
@@ -146,7 +154,7 @@ button:active {
 
     .card .titulo {
         font-weight: 800;
-        font-size: 40px;
+        font-size: 18px;
     }
 
     .botones {
@@ -173,7 +181,7 @@ button:active {
 @media screen and (max-width: 500px) {
     .card .titulo {
         font-weight: 800;
-        font-size: 25px;
+        font-size: 16px;
     }
     /* .card-succes .card-2 {
         width:125px
